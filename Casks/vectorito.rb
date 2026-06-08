@@ -8,7 +8,7 @@ cask "vectorito" do
   homepage "https://github.com/jjanisheck/vectorito"
 
   depends_on arch:  :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Vectorito.app"
 
